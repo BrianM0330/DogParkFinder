@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FilterOptions} from './filter.model'
 
 @Component({
   selector: 'app-find-and-filter',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FindAndFilterComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit(): void {
+
   }
 
 }
