@@ -8,9 +8,12 @@ export enum FilterOptions {
   MEDIUM_CAPACITy = 20,
   HIGH_CAPACITY = 30,
 
-  SMALL_DOGS,
-  BIG_DOGS,
+  SMALL_DOGS = "Small Dogs",
+  BIG_DOGS = "Big Dogs",
 
-  PRIVATE,
-  PUBLIC
+  PRIVATE = "Private",
+  PUBLIC = "Public",
+
+  FREE = "Free",
+  MEMBERSHIP = "Membership Required"
 }
