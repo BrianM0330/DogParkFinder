@@ -1,0 +1,8 @@
+.toolbar-spacer {
+  flex: 1 1 auto
+}
+
+.material-button {
+  width: 8em;
+  margin: 1.5em;
+}
