@@ -15,7 +15,7 @@ export class Parks {
       name : "Small Dog Park",
       population: 5,
       maxPopulation: 15,
-      options : [FilterOptions.SMALL_DOGS, FilterOptions.LOW_CAPACITY, FilterOptions.LOW_POPULATION, FilterOptions.PUBLIC],
+      options : [FilterOptions.Small_Dogs, FilterOptions.Low_Capacity, FilterOptions.Low_Population, FilterOptions.Public],
       latitude : 69.420,
       longitude : 1337
     },
@@ -24,7 +24,7 @@ export class Parks {
       name : "Big Boi Park",
       population: 28,
       maxPopulation: 35,
-      options : [FilterOptions.BIG_DOGS, FilterOptions.HIGH_CAPACITY, FilterOptions.HIGH_POPULATION, FilterOptions.PUBLIC],
+      options : [FilterOptions.Big_Dogs, FilterOptions.High_Capacity, FilterOptions.High_Population, FilterOptions.Public],
       latitude : 69.420,
       longitude : 1337
     },
@@ -33,7 +33,7 @@ export class Parks {
       name : "Rich People Only",
       population: 12,
       maxPopulation: 40,
-      options : [FilterOptions.SMALL_DOGS, FilterOptions.BIG_DOGS, FilterOptions.LOW_CAPACITY, FilterOptions.LOW_POPULATION, FilterOptions.PRIVATE, FilterOptions.MEMBERSHIP],
+      options : [FilterOptions.Big_Dogs, FilterOptions.Low_Capacity, FilterOptions.Low_Population, FilterOptions.Private, FilterOptions.Membership],
       latitude : 69.420,
       longitude : 1337
     },
@@ -42,7 +42,7 @@ export class Parks {
       name : "Fido's home",
       population: 5,
       maxPopulation: 45,
-      options : [FilterOptions.SMALL_DOGS, FilterOptions.LOW_CAPACITY, FilterOptions.LOW_POPULATION, FilterOptions.PUBLIC],
+      options : [FilterOptions.Small_Dogs, FilterOptions.Low_Capacity, FilterOptions.Low_Population, FilterOptions.Public],
       latitude : 69.420,
       longitude : 1337
     }

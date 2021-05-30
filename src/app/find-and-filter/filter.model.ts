@@ -1,19 +1,19 @@
 export enum FilterOptions {
-  LOW_POPULATION = 25,
-  MEDIUM_POPULATION = 65,
-  HIGH_POPULATION = 90,
+  Low_Population = 25,
+  Medium_Population = 65,
+  High_Population = 90,
 
   //arbitrary values, we'd need to do a bit of research here
-  LOW_CAPACITY = 10,
-  MEDIUM_CAPACITy = 20,
-  HIGH_CAPACITY = 30,
+  Low_Capacity = 10,
+  Medium_Capacity = 20,
+  High_Capacity = 30,
 
-  SMALL_DOGS = "Small Dogs",
-  BIG_DOGS = "Big Dogs",
+  Small_Dogs = "Small Dogs",
+  Big_Dogs = "Big Dogs",
 
-  PRIVATE = "Private",
-  PUBLIC = "Public",
+  Private = "Private",
+  Public = "Public",
 
-  FREE = "Free",
-  MEMBERSHIP = "Membership Required"
+  Free = "Free",
+  Membership = "Membership"
 }
