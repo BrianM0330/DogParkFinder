@@ -11,6 +11,7 @@ export interface ParkObject { //define the  necessary attributes of a park objec
 
 export class Parks {
   public parksList: ParkObject[] = [
+
     {
       name : "Small Dog Park",
       population: 5,
@@ -43,6 +44,33 @@ export class Parks {
       population: 5,
       maxPopulation: 45,
       options : [FilterOptions.Small_Dogs, FilterOptions.Low_Capacity, FilterOptions.Low_Population, FilterOptions.Public],
+      latitude : 69.420,
+      longitude : 1337
+    },
+
+    {
+      name : "Snoopyland",
+      population: 31,
+      maxPopulation: 40,
+      options : [FilterOptions.Big_Dogs, FilterOptions.Low_Capacity, FilterOptions.Low_Population, FilterOptions.Public, FilterOptions.Free],
+      latitude : 69.420,
+      longitude : 1337
+    },
+
+    {
+      name : "Unethical Designer Dogs Only",
+      population: 3,
+      maxPopulation: 10,
+      options : [FilterOptions.Big_Dogs, FilterOptions.Low_Capacity, FilterOptions.Low_Population, FilterOptions.Private, FilterOptions.Membership, FilterOptions.Small_Dogs],
+      latitude : 69.420,
+      longitude : 1337
+    },
+
+    {
+      name : "Marxland",
+      population: 69,
+      maxPopulation: 100,
+      options : [FilterOptions.Big_Dogs, FilterOptions.Small_Dogs, FilterOptions.High_Capacity, FilterOptions.High_Population, FilterOptions.Public, FilterOptions.Free],
       latitude : 69.420,
       longitude : 1337
     }
