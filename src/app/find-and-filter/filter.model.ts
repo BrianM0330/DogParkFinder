@@ -1,12 +1,12 @@
 export enum FilterOptions {
-  Low_Population = 25,
-  Medium_Population = 65,
-  High_Population = 90,
+  Low_Population = "Low Population",
+  Medium_Population = "Medium Population",
+  High_Population = "High Population",
 
   //arbitrary values, we'd need to do a bit of research here
-  Low_Capacity = 10,
-  Medium_Capacity = 20,
-  High_Capacity = 30,
+  Low_Capacity = "Low Capacity",
+  Medium_Capacity = "Medium Capacity",
+  High_Capacity = "High Capacity",
 
   Small_Dogs = "Small Dogs",
   Big_Dogs = "Big Dogs",

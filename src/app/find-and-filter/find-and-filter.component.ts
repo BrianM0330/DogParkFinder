@@ -20,21 +20,18 @@ export class FindAndFilterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  filterNames = Object.keys(FilterOptions).slice(6)
-  filterValues = Object.values(FilterOptions).slice(6)
+  filterNames = Object.keys(FilterOptions)
+  filterValues = Object.values(FilterOptions)
 
   dataSource = this.dataToDisplay
   displayedColumns = ['Name', 'Population', 'Filters', 'Location']
 
-  public filterFunction(toFilter: String) {
+  public filterFunction(toFilter: string) {
     toFilter = toFilter.replace("_", " ")
     console.log("Before ==>  ", this.dataSource)
 
     // this.dataSource = this.dataSource.splice(2)
-    this.dataSource = this.dataSource
-                        .filter(park =>
-                                park.options.includes(<FilterOptions> toFilter) //casted enum to string param
-                          )
+    this.dataSource = this.dataSource.filter(park => park.options.includes(<FilterOptions> toFilter)) //casted enum to string param
 
     console.log(this.dataSource)
   }
@@ -44,6 +41,6 @@ export class FindAndFilterComponent implements OnInit {
   }
 }
 
-console.log(Object.keys(FilterOptions).slice(6))
+console.log(Object.keys(FilterOptions))
 
-console.log(Object.values(FilterOptions).slice(6))
+console.log(Object.values(FilterOptions))
