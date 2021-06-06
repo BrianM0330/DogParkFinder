@@ -12,6 +12,16 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button'
 import {MatTableModule} from '@angular/material/table'
 
+//jorgon imports
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { ReviewBoardComponent } from './review-board/review-board.component';
+import { WriteUpComponent } from './write-up/write-up.component';
+import { PostBoardComponent } from './post-board/post-board.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EventEmitterService } from './event-emitter.service';
+
 @NgModule({
   declarations: [
     AppComponent,
