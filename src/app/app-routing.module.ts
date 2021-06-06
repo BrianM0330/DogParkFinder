@@ -6,6 +6,7 @@ import { FindAndFilterComponent } from './find-and-filter/find-and-filter.compon
 
 const routes: Routes =
 [
+  { path: '', component: HomeComponent},
   { path: 'home', component: HomeComponent},
   { path: 'reviews', component: ReviewBoardComponent},
   { path: 'find', component: FindAndFilterComponent}
