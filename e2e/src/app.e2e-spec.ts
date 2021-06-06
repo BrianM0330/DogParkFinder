@@ -10,8 +10,10 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('dog-park-finder app is running!');
+    expect(page.getTitleText()).toEqual('DogParkFinder app is running!');
   });
+
+  afterEach(async () => {
 
   afterEach(async () => {
     // Assert that there are no errors emitted from the browser
