@@ -25,7 +25,13 @@ import { EventEmitterService } from './event-emitter.service';
 @NgModule({
   declarations: [
     AppComponent,
-    FindAndFilterComponent
+    FindAndFilterComponent,
+    FooterComponent,
+    HeaderComponent,
+    HomeComponent,
+    PostBoardComponent,
+    ReviewBoardComponent,
+    WriteUpComponent,
   ],
   imports: [
     BrowserModule,
