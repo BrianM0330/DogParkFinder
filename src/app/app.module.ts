@@ -36,6 +36,8 @@ import { EventEmitterService } from './event-emitter.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     MatSliderModule, MatToolbarModule, MatButtonModule, MatTableModule
   ],
