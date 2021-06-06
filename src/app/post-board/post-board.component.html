@@ -1,0 +1,28 @@
+<div class="field">
+    <div class="control">
+      <textarea class="textarea" readonly rows = "12" id = "p-txt"></textarea>
+    </div>
+</div>
+<div class = "field if-grouped">
+    <div class = "control has-icons-left"> 
+        <div class = "select is-rounded">
+            <select id = "p-select" (change) = "loadReviews()"> 
+                <option>Park Reviews</option>
+                <option>Small Dog Park</option>
+                <option>Big Boi Park</option>
+                <option>Rich People Only</option>
+                <option>Fido's Home</option>
+            </select>
+        </div>
+        <div class = "icon is-small is-left">
+            <i class = "fa fa-paw"></i>
+        </div>
+    </div>
+    <div class = "select is-rounded">
+        <select id = "s-select" (change) = "loadReviews()">
+            <option>Sort By</option>
+            <option>Oldest</option>
+            <option>Newest</option>
+        </select>
+    </div>
+</div>

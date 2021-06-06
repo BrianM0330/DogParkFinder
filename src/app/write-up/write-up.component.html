@@ -1,0 +1,54 @@
+<form [formGroup] = "editForm" (ngSubmit) = "saveReview()">
+    <!-- Dog Park Options -->
+    <div class = "field">
+        <div class = "control has-icons-left">
+            <div class = "select is-rounded">
+                <select id = "w-select" required>
+                    <option>Select Which Park To Review</option>
+                    <option value = "Small Dog Park">Small Dog Park</option>
+                    <option value = "Big Boi Park">Big Boi Park</option>
+                    <option value = "Rich People Only">Rich People Only</option>
+                    <option value = "Fido's Home">Fido's Home</option>
+                </select>
+            </div>
+            <div class = "icon is-small is-left">
+                <i class = "fa fa-paw"></i>
+            </div>
+        </div>
+    </div>
+    <!-- User Name Field -->
+    <div class = "field">
+        <p class = "control has-icons-left">
+            <input class = "input" type = "text" placeholder="User Name" formControlName = "name" required>
+            <span class = "icon is-small is-left">
+                <i class = "fa fa-user"></i>
+            </span>
+        </p>
+    </div>
+    <div *ngIf="editForm.controls['name'].invalid && (editForm.controls['name'].dirty || editForm.controls['name'].touched)" class="error-message">
+        <div *ngIf="editForm.controls['name'].errors.required">
+        User Name must be between five & fifteen characters long
+      </div>
+    </div>
+    <!-- Review Field -->
+    <div class = "field">
+        <div class="control">
+            <textarea class="textarea" placeholder="Write Review Here" formControlName = "review" required></textarea>
+        </div>
+    </div>
+    <div *ngIf="editForm.controls['review'].invalid && (editForm.controls['review'].dirty || editForm.controls['review'].touched)" class="error-message">
+        <div *ngIf="editForm.controls['review'].errors.required">
+        Review must be at least twenty characters long
+      </div>
+    </div>
+    <!-- Submit and Cancel Buttons -->
+    <div class="field is-grouped">
+        <div class="control">
+          <button class="button button-primary is-info">Submit</button>
+        </div>
+        <div class="control">
+          <button type = "reset" class="button is-info">Cancel</button>
+        </div>
+    </div>
+
+</form>
