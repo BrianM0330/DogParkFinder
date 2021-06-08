@@ -122,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "DogParkFinder"
+    }
+  },
+  "defaultProject": "DogParkFinder",
+  "cli": {
+    "analytics": "4eb65fdf-7d2f-495f-a9be-a919f6826ee9"
+  }
 }

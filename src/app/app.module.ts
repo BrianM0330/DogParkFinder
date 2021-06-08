@@ -21,6 +21,7 @@ import { WriteUpComponent } from './write-up/write-up.component';
 import { PostBoardComponent } from './post-board/post-board.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EventEmitterService } from './event-emitter.service';
+import { CheckInComponent } from './check-in/check-in.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { EventEmitterService } from './event-emitter.service';
     PostBoardComponent,
     ReviewBoardComponent,
     WriteUpComponent,
+    CheckInComponent,
   ],
   imports: [
     BrowserModule,
