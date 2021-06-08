@@ -40,7 +40,3 @@ export class FindAndFilterComponent implements OnInit {
 
   }
 }
-
-console.log(Object.keys(FilterOptions))
-
-console.log(Object.values(FilterOptions))
